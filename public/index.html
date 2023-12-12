@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="slide">
+      <div class="div">
+        <div class="overlap">
+          <div class="text-wrapper">|</div>
+          <p class="p">Зручність одного квитка, низькі тарифи, та безпроблемне планування маршруту</p>
+          <div class="text-wrapper-2">Один Квиток, <br />Безмежні Можливості:</div>
+          <div class="overlap-group">
+            <div class="text-wrapper-3">InterCityPass</div>
+            <img class="vector" src="img/vector-1-1.svg" />
+          </div>
+          <div class="div-wrapper">
+            <button id="search" class="button-wrapper" onclick="ScanButtonClick()">
+              <div class="text-wrapper-4">Знайти</div>
+            </button>
+          </div>
+          <div class="frame">
+            <div class="overlap-group-2">              
+              <input type="text" id="fromInput" class="rectangle" placeholder="Звідки">
+              <input type="text" id="toInput" class="rectangle2" placeholder="Куди">
+              <input type="date" id="dateInput" class="rectangle-2" placeholder="Дата" required>
+            </div>
+          </div>
+        </div>
+
+        <div class="overlap-wrapper">
+          <div id="ticketsContainer" ></div>
+          <div id="notFound" class="tickets__not-found">Маршрут не знайдено!</div>
+
+          
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  </body>
+</html>

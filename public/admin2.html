@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="admin2.css" />
+  </head>
+  <body>
+    <div class="slide">
+      <div class="div">
+
+
+        <div class="text-rout">Додати маршрут</div>
+        <div class="overlap-marsh">
+          <div class="text-wrapper">Куди</div>
+          <div class="text-wrapper-2">Звідки</div>
+          <input type="text" id="zvidki" class="zvidki" >
+          <input type="text" id="kuda" class="kuda" >
+          <div class="text-wrapper-3">Дата прибуття</div>
+          <div class="text-wrapper-4">Дата відбуття</div>
+
+          <input type="text" id="login" class="rec3" >
+          <input type="text" id="password" class="rec4">
+
+          <div class="text-wrapper-5">Час прибуття</div>
+          <div class="text-wrapper-6">Час відбуття</div>
+          <input type="text" id="login" class="rec5" >
+          <input type="text" id="password" class="rec9" >
+
+
+          <button id="search" class="over" onclick="addRoute()">
+            <div class="text-wrapper-10">Додати</div>
+          </button>
+
+        </div>
+
+        <div class="text-wagon">Додати вагон</div>          
+        <div class="overlap-wagon">
+
+          <div class="text-wrapper-2">Route_ID</div>
+          <input type="text" id="zvidki" class="zvidki" >
+
+          <div class="text-wrapper">Ціна</div>
+          <input type="text" id="password" class="kuda" >
+  
+          <div class="text-wrapper-3">Тип вагона</div>
+          <input type="text" id="password" class="rec3" >
+  
+          <div class="text-wrapper-4">К-сть місць</div>
+          <input type="text" id="password" class="rec4" >
+
+          <button id="search" class="over222" onclick="addWagon()">
+            <div class="text-wrapper-10">Додати</div>
+          </button>
+        </div> 
+
+
+
+        <button id="search" class="overlap-3" onclick="Prognoz()">
+          <div class="text-wrapper-13">Отримати прогноз</div>
+        </button>
+
+
+      </div>
+    </div>
+    <script src="js/script_admin.js"></script>
+  </body>
+</html>
